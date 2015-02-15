@@ -1,0 +1,41 @@
+{
+  "name": "roisalen-fluxible-client",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Client for roisalen created in flexible",
+  "main": "server.js",
+  "author": "Torkil Vederhus <torkilv@gmail.com>",
+  "scripts": {
+    "dev": "grunt roisalen --gruntfile Gruntfile.js --taskName roisalen"
+  },
+  "dependencies": {
+    "body-parser": "^1.6.4",
+    "cookie-parser": "^1.3.3",
+    "csurf": "^1.6.3",
+    "debug": "^2.0.0",
+    "express": "^4.3.2",
+    "express-state": "^1.2.0",
+    "flux-router-component": "^0.5.0",
+    "fluxible": "^0.2.0",
+    "fluxible-plugin-fetchr": "^0.2.0",
+    "fluxible-plugin-routr": "^0.3.0",
+    "node-jsx": "^0.12.0",
+    "react": "^0.12.0",
+    "react-router": "^0.11.6",
+    "serialize-javascript": "^1.0.0",
+    "serve-favicon": "^2.1.6"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-nodemon": "^0.3.0",
+    "grunt-webpack": "^1.0.8",
+    "jsx-loader": "^0.12.0",
+    "nodemon": "^1.2.1",
+    "webpack": "^1.4.12",
+    "webpack-dev-server": "^1.6.5"
+  }
+}
