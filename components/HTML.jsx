@@ -11,8 +11,7 @@ var Component = React.createClass({
                 <meta charSet="utf-8" />
                 <title>{this.getStore(PageStore).getPageTitle()}</title>
                 <meta name="viewport" content="width=device-width, user-scalable=no" />
-                <link rel="stylesheet" href="/public/base.css" />
-                <link rel="stylesheet" href="/public/styles.css" />
+                <link rel="stylesheet" href="/public/roisalen.css" />
             </head>
             <body>
                 <section id="roisalen" dangerouslySetInnerHTML={{__html: this.props.markup}}></section>

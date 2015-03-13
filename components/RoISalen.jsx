@@ -28,10 +28,10 @@ var Component = React.createClass({
         if (organisations.length) {           
             var organisationItems = organisations.map(function (organisation) {
                 return (
-                    <li className={"organisation-item"}>
-                        <a href={""+organisation.id}> 
+                    <li>
+                        <a href={""+organisation.id} className={"organisation"} > 
                             <img className={"logo"} 
-                                src={"resources/images/logos/"+organisation.shortname} />
+                                src={"public/images/"+organisation.shortName} />
                             {organisation.name} 
                         </a>
                     </li>
@@ -61,7 +61,7 @@ var Component = React.createClass({
                 </header>
                 {main}
                 <a className="new-organisation" href="add-organisation">
-                    <div className="add-icon">+</div>"Legg til ny organisasjon"
+                    <div className="add-icon">+</div>Legg til ny organisasjon
                 </a>
             <hr/>
             <h2>Om Roisalen</h2>

@@ -19,6 +19,12 @@ module.exports = function (grunt) {
                     cwd: 'assets/',
                     src: ['styles.css'],
                     dest: 'build/'
+                },
+                {
+                    expand: true,
+                    cwd: 'assets/',
+                    src: ['images/*'],
+                    dest: 'build/images/'
                 }]
             }
         },
