@@ -8,7 +8,7 @@ var csrf = require('csurf');
 var React = require('react');
 var app = require('./app');
 var showRoisalen = require('./actions/showRoisalen');
-var HtmlComponent = React.createFactory(require('./components/Html.jsx'));
+var HtmlComponent = React.createFactory(require('./components/HTML.jsx'));
 
 
 var server = express();
