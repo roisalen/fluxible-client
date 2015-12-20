@@ -31,7 +31,7 @@ var Component = React.createClass({
                     <li>
                         <a href={""+organisation.id} className={"organisation"} > 
                             <img className={"logo"} 
-                                src={"public/images/"+organisation.shortName} />
+                                src={"/public/images/logo_"+organisation.shortName+".jpg"} />
                             {organisation.name} 
                         </a>
                     </li>
