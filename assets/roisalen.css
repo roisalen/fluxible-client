@@ -13,6 +13,30 @@ h1 {
   	color: #444444;
 }
 
+body {
+	font-weight: 200;
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #777777;
+}
+
+.organisation-list-item {
+	list-style: none;
+    height: 12rem;
+    display: inline-block;
+    background: #fcfcfc;
+    border: 0px;
+    text-align: left;
+    font-size: 1.25rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    width: 12rem;
+    color: #444444;
+    vertical-align: top;
+    text-decoration: none;
+}
+
 .glyphicon {
 	position: relative;
   	top: 1px;
@@ -29,16 +53,8 @@ h1 {
 }
 
 a.organisation {
-	display: inline-block;
-	background: #fcfcfc;
-	border: 0px;
-	text-align: left;
-	font-size: 1.75rem;
-	margin-right: 4rem;
-	margin-bottom: 1rem;
-	width: 18rem;
 	color: #444444;
-	vertical-align: top;
+	text-decoration: none;
 
 }
 
@@ -47,8 +63,8 @@ a.organisation {
 }
 
 img.logo {
-	height: 18rem;
-	width: 18rem;
+	height: 12rem;
+	width: 12rem;
 	margin-bottom: 1rem;
 }
 
@@ -56,8 +72,9 @@ a.new-organisation {
 	display: inline-block;
 	color: #444444;
 	width: 100%;
-	font-size: 5rem;
+	font-size: 3rem;
 	vertical-align: middle;
+	text-decoration: none;
 
 }
 .add-icon {

@@ -28,7 +28,7 @@ var Component = React.createClass({
         if (organisations.length) {           
             var organisationItems = organisations.map(function (organisation) {
                 return (
-                    <li>
+                    <li className={"organisation-list-item"}>
                         <a href={""+organisation.id} className={"organisation"} > 
                             <img className={"logo"} 
                                 src={"/public/images/logo_"+organisation.shortName+".jpg"} />
